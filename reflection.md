@@ -5,6 +5,9 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 1. What was broken when you started?
 
 - What did the game look like the first time you ran it?
+1. The hints are not correct. They are backward
+2. Cannot start a new game after losing/winning
+3. Attempts allowed is 8 but only give 7 tries
 - List at least two concrete bugs you noticed at the start  
   (for example: "the hints were backwards").
 
@@ -14,9 +17,9 @@ Document at least 3 bugs you found. Add rows as needed.
 
 | Input | Expected Behavior | Actual Behavior | Console Output / Error |
 |-------|-------------------|-----------------|------------------------|
-| | | | |
-| | | | |
-| | | | |
+| Guess 45. Target is 52| Hint says "Go higher" | Hint says "Go lower" | none |
+| Click on "New Game" | Start a new game | Nothing happens | none |
+| Do 7 tries | 8 guesses | Only allows 7 guesses | none |
 
 ---
 
